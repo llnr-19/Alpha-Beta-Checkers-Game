@@ -29,7 +29,7 @@ This project has the following dependencies:
 
 To run the checkers game with the AI agent, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/llnr-19/Alpha-Beta-Checkers-Game.git`
+1. Clone the repository: `git clone https://github.com/llnr-19/alpha-beta-checkers-game.git`
 2. Install the dependencies: `pip install pygame`
 3. Run the main Python file: `python main.py`
 4. Enjoy playing against the AI agent!
