@@ -18,12 +18,6 @@ The project involves creating a checkers board representation, implementing the 
 - Interactive gameplay allowing human players to play against the AI agent.
 - Display of game state, current player, and move suggestions from the AI agent.
 
-## Dependencies
-
-This project has the following dependencies:
-
-- Python (version 3.0 or above)
-- Pygame library (for graphical user interface)
 
 ## Getting Started
 
