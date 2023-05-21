@@ -1,4 +1,4 @@
-from checkers.algorithm import *
+from game.algorithm import *
 
 
 # Simulating moves

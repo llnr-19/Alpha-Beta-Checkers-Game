@@ -1,7 +1,5 @@
-import pygame
-from checkers.constants import *
 from checkers.piece import Piece
-from checkers.algorithm import *
+from game.algorithm import *
 
 
 class Board:
@@ -148,13 +146,9 @@ class Board:
         return moves
 
     def winner(self):
-        # piece = Piece()
-        #
-        # m = get_all_moves(self, self.color)
-        # move = self.get_valid_moves()
-        if self.red_left <= 0:
+        if self.red_left <= 0 or not any(self.get_valid_moves(piece) for piece in self.get_all_pieces(RED)):
             return WHITE
-        elif self.white_left <= 0:
+        elif self.white_left <= 0 or not any(self.get_valid_moves(piece) for piece in self.get_all_pieces(WHITE)):
             return RED
         return None
 
